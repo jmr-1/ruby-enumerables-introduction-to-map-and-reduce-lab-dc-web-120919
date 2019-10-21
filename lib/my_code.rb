@@ -50,6 +50,17 @@ end
 
 def reduce_to_total(source_array, starting_point)
   
+  starting_num = starting_point
+  total_num = 0 
+  if starting_point = nil 
+    starting_num = 0 
+  end 
   
+  counter = 0 
+  while counter<source_array.length do
+    
+    
+  end 
   
+  return total_num
 end 
